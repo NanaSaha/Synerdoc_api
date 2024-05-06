@@ -303,23 +303,7 @@ end
 
 
 
-# def sendmsg(sender_id, recipient_number, message_body)
 
-# account_sid = ''
-# auth_token = ''
-# @client = Twilio::REST::Client.new(account_sid, auth_token)
-
-# from = sender_id # Your Twilio number
-# to = validatePhoneNumber(recipient_number) # Your mobile phone number
-# puts "VALID NUMBER #{to}"
-# puts @client.messages.create(
-# from: from,
-# to: to,
-# body: message_body
-# )
-
-
-# end
 
 
 
